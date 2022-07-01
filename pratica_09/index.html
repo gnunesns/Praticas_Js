@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Pratica 09</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row" >
+            <form action="" name="inscrição"  class="row g-3 needs-validation"> 
+                <div class="col-md-4">
+                    <label for="passaporte" class="form-label">Número do Passaporte</label>
+                    <input type="text" pattern="[a-zA-Z]{2}" name="passaporte"  id="passaporte" class="form-control"  placeholder="Exemplo: CS265436265436">
+                </div>
+                <div class="col-md-3">
+                    <label for="pais" class="form-label">Pais</label>
+                    <select name="pais" id="pais" class="form-select">
+                        <option value="0">Escolha um Pais</option>
+                        <option value="1">Brasil</option> 
+                        <option value="2">Argentina</option>
+                        <option value="3">Bolivia</option>
+                        <option value="4">Peru</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Iniciar Inscrição" class="btn btn-primary" id="enviar">
+                </div> 
+            </form>
+        </div>       
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

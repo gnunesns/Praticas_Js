@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-switch">
+        <label class="switch">
+            <input id="dark-mode" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    
+    <div class="lista_de_tarefas">
+        <h1>Lista de tarefas</h1>
+        <form>
+            <label for="tarefa">Nova Tarefa</label>
+            <input type="text" id="tarefa" autocomplete="off" placeholder="Insira aqui uma tarefa">
+            <button type="submit" id="add_tarefa"><span>Nova Tarefa</span><i class="fa fa-plus-square"></i></button>
+        </form>
+        <div class="listas">
+            <h2 id="titulo-a-fazer">A fazer</h2>
+            <ul id="a-fazer">
+                <li class="lista-vazia"> Adicione tarefas à lista</li>
+            </ul>
+        </div>
+        <div class="listas">
+            <h2 id="titulo-feito">Feito</h2>
+            <ul id="feito">
+                <li class="lista-vazia">Nenhuma tarefa concluída</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
