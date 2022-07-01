@@ -1,0 +1,19 @@
+
+body{
+    background-color: black;  
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color:aqua; 
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 46%;   
+}
+
